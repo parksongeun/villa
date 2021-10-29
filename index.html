@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Gothic+A1:wght@400;700;900&display=swap" rel="stylesheet">
+    
+    <title>villa</title>
+    
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <div class="wrap">
+        <a
+href="#gotobottom"
+title="Go to Bottom"
+style="display: scroll; position: fixed; bottom: 30px; right: 15px;"
+rel="nofollow"
+onfocus='this.blur()'
+>
+이 글을 눌러
+<br>
+1층으로 가주세요.
+
+</a>
+    <div class="container">
+    <div class="el">
+        <img src="img/close.png" alt="elevator" id="close">
+        <img src="img/open.png" alt="elevator" id="open">
+    </div>
+</div>
+
+<div class="container2">
+    <div class="floor">
+
+    
+     
+
+        <div class="three">
+            <a href="301_1.html" 
+            class="btn-sm btn-outlinee-primary" value="PLAY" 
+            onmouseover="hzplay('bell.mp3')" onmouseleave="hzplay('')" onclick="play()" target="blank">301</a>
+       <div class="space">&nbsp</div>
+           <a href="302_1.html" 
+           class="btn-sm btn-outlinee-primary" value="PLAY"
+           onmouseover="hzplay('bell.mp3')" onmouseleave="hzplay('')" onclick="play()" target="blank">302</a>
+    </div>
+        <div class="two">
+            <a href="201_1.html" 
+            class="btn-sm btn-outlinee-primary" value="PLAY" 
+            onmouseover="hzplay('bell.mp3')" onmouseleave="hzplay('')"onclick="play()" target="blank">201</a>
+       <div class="space">&nbsp</div>
+           <a href="202_1.html" 
+           class="btn-sm btn-outlinee-primary" value="PLAY" 
+           onmouseover="hzplay('bell.mp3')" onmouseleave="hzplay('')"onclick="play()"target="blank">202</a>
+    </div>
+        <div class="one">
+            <a href="101_1.html" 
+            class="btn-sm btn-outlinee-primary" value="PLAY" 
+            onmouseover="hzplay('bell.mp3')" onmouseleave="hzplay('')" onclick="play()"target="blank">101</a>
+       <div class="space">&nbsp</div>
+           <a href="102_1.html" 
+           class="btn-sm btn-outlinee-primary" value="PLAY" 
+           onmouseover="hzplay('bell.mp3')" onmouseleave="hzplay('')" onclick="play()"target="blank">102</a>
+    </div>
+    </div>
+</div>
+
+</div>
+
+
+<div id='gotobottom'></div>
+    <audio id='hz' controls><source src="" type="audio/mp3" /></audio>
+    <audio id="audio" src="door.mp3"></audio>
+    <script type="text/javascript">
+    function hzplay($mp3){
+        hz = document.getElementById("hz");
+        hz.src = $mp3;
+        hz.play();
+    }
+
+    function play(){
+        var audio = document.getElementById("audio");
+        audio.play();
+    }
+    function play(){
+        var audio = document.getElementById("audio");
+        audio.play();
+    }
+    function play(){
+        var audio = document.getElementById("audio");
+        audio.play();
+    }
+    function play(){
+        var audio = document.getElementById("audio");
+        audio.play();
+    }
+    function play(){
+        var audio = document.getElementById("audio");
+        audio.play();
+    }
+    function play(){
+        var audio = document.getElementById("audio");
+        audio.play();
+    }
+    function play(){
+        var audio = document.getElementById("audio");
+        audio.play();
+    }
+
+  
+    </script>
+    
+  
+
+    
+
+</body>
+</html>

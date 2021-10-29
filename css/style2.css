@@ -1,0 +1,26 @@
+.wrap{
+    font-family: 'Courier Prime', 'Gothic A1', monospace;
+                font-size:16pt;
+                line-height: 1.5;
+                margin: 24px;
+}
+
+@media screen and (max-width: 600px) {
+    .wrap{
+
+                    font-size:12pt;
+                    line-height: 1.5;
+    }
+    }
+
+    .wrap a{
+        text-decoration: underline;
+        color: blue;
+    }
+
+    a{
+       text-decoration: underline;
+        color:black;
+        line-height: 1.2;
+        text-align: right;
+    }
